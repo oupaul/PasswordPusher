@@ -957,7 +957,7 @@ theme: 'default'
 # Example: default_locale: :es
 #
 # Environment Variable Override: PWP__DEFAULT_LOCALE='es'
-default_locale: :tw
+default_locale: :en
 
 ### Language & Internationalization
 #
