@@ -205,7 +205,7 @@ show_gdpr_consent_banner: true
 # PWP__TIMEZONE='America/New_York'
 #
 # Default: 'America/New_York'
-timezone: 'America/New_York'
+timezone: 'Asia/Taipei'
 
 ### Allowed Hosts
 #
@@ -957,7 +957,7 @@ theme: 'default'
 # Example: default_locale: :es
 #
 # Environment Variable Override: PWP__DEFAULT_LOCALE='es'
-default_locale: :en
+default_locale: :tw
 
 ### Language & Internationalization
 #
@@ -1002,6 +1002,7 @@ enabled_language_codes:
   - uk    # 'Українська'
   - ur    # 'اردو'
   - zh-CN # '中文'
+  - zh-TW # '繁中'
 
 ### Language & Internationalization
 #
@@ -1044,6 +1045,7 @@ language_codes:
   uk: 'Українська'
   ur: 'اردو'
   zh-CN: '中文'
+  zh-TW: '繁中'
 
 # Used internally for the language selector model.
 # This provides a conversion of language codes to
@@ -1086,6 +1088,7 @@ country_codes:
   uk: :ua
   ur: :pk
   zh-CN: :cn
+  zh-TW: :tw
 
 # Configure the logging verbosity of the application.
 #
